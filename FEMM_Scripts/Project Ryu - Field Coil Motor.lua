@@ -73,9 +73,9 @@
 
 prompter	= 0
 --User Variables
-mdia            = 55
+mdia            = 60
 mheight         = 200
-vcdia           = 25
+vcdia           = 19
 vcheight        = 5
 gapwidth        = 1
 gapheight       = 5
@@ -85,9 +85,9 @@ flux		= 2.4
 --User Constants
 max_voltage	= 300
 max_current	= 4
-min_mdia        = 120
-max_mdia        = 180
-min_ecwdia      = 0.3
+min_mdia        =50
+max_mdia        = 60
+min_ecwdia      = 0.05
 max_ecwdia      = 1.5
 w 		= { ['dia'] = 0.5, ['pow'] = 0.5, ['flx'] = 1 }
 save_path       = "C:\\temp\\"
