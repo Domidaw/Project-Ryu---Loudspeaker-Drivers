@@ -71,23 +71,23 @@
 --              s = w['dia']*(motor diameter)+w['pow']*(fc power)+w['flx']*(flux)
 
 
-prompter	= 1
+prompter	= 0
 --User Variables
-mdia            = 0
-mheight         = 120
-vcdia           = 50
+mdia            = 60
+mheight         = 100
+vcdia           = 19
 vcheight        = 5
-gapwidth        = 1
-gapheight       = 14
+gapwidth        = 0.9
+gapheight       = 5
 flux		= 1.5
 
 
 --User Constants
-max_voltage	= 24
+max_voltage	= 300
 max_current	= 4
-min_mdia        = 120
-max_mdia        = 180
-min_ecwdia      = 0.3
+min_mdia        = 50
+max_mdia        = 60
+min_ecwdia      = 0.05
 max_ecwdia      = 1.5
 w 		= { ['dia'] = 0.5, ['pow'] = 0.5, ['flx'] = 1 }
 save_path       = "C:\\temp\\"
@@ -106,7 +106,7 @@ botplate        = 20
 canplate        = 10
 coredia         = 0
 start_i 	= 0.1
-gapclear	= 0.3
+gapclear	= 0.2
 current_step	= 0.1
 fc_wind_factor	= 0.7
 count           = 1
