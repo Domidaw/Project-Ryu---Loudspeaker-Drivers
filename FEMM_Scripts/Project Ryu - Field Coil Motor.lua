@@ -74,7 +74,7 @@
 prompter	= 0
 --User Variables
 mdia            = 60
-mheight         = 200
+mheight         = 140
 vcdia           = 19
 vcheight        = 5
 gapwidth        = 1
